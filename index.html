@@ -5,21 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <title>Interview Project</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-     <!-- Nav -->
-    <header id="header">
-       
-    </header>
-    
-    <!-- Features -->
-    <section id="features">
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Logo.png" height="60px" alt="">
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li>
+                        <a href="#">Our Approach</a>
+                    </li>
+                    <li>
+                        <a href="#">Industries</a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                        <ul class="dropdown-sub-menu menu">
+                            <li><a href="#">one</a></li>
+                            <li><a href="#">two</a></li>
+                            <li><a href="#">three</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                        
+                    </li>
+                    <li>
+                        <Button>CONTACT</Button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Features -->
+    <section id="features" class="row">
+        <div class="column" style="background-color:#aaa;">
+            <img src="img/firestone.png" alt="">
+            <h2>Firetone Country Club</h2>
+            <h3>See how we gre Stay & Play revenue by 305%.</h3>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim viverra neque, non consectetur turpis pharetra id. <span><a href="#">Read more</a></span>  
+            </P>
+        </div>
+        <div class="column" style="background-color:#aaa;">
+            <img src="img/kohler.png" alt="">
+            <h2>KOHLER WALK-IN BATH</h2>
+            <h3>Stepping into a niche market generating a $64 MM</h3>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim viverra neque, non consectetur turpis pharetra id. <span><a href="#">Read more</a></span>  
+            </P>
+        </div>
+        <div class="column" style="background-color:#aaa;">
+            <img src="img/closests.png" alt="">
+            <h2>CLOSETS BY LIBERTY</h2>
+            <h3>Simplifying closet organization with award-winning creative.</h3>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim viverra neque, non consectetur turpis pharetra id. <span><a href="#">Read more</a></span>  
+            </P>
+        </div>
     </section>
     
     <!-- CTA -->
-    <section id="cta">
-
+    <section id="cta" class="row">
+        <div class="column">
+            <h2>Sign up for our newsletter</h2>
+            <input type="email" name="" id="">
+            <button>Sign up</button>
+        </div>  
     </section>
 </body>
 </html>
