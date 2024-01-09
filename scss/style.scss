@@ -3,28 +3,46 @@
 $primary : #009AFB;
 $background: #0E1B50;
 
-header{
-    height: 125px;
-}
 #navbar{
+    display: flex;
+    align-items: center;
     background-color: $background;
+    height: 125px;
+
 }
 
-#navbar > div > header > ul a{
-    color: white;
+#navbar .contact-btn{
+    margin-left: 50px;
+    padding: 5px 36px;
+    background: $primary;
 }
 
-#navbar header .contact-btn{
-padding: 5px 36px;
-background: $primary;
+#navbar .navbar-toggler{
+    border-color: white;
+    background: white;
 }
+
 .dropdown-menu.menu.show{
 background-color: $background;
+}
+
+#navbar .dropdown-menu .dropdown-item{
+    background: $background;
+    color: white;
 }
 
 .dropdown-menu.menu.show li .dropdown-item{
     color: white;
 }
+#navbar .nav-link{
+    margin-left: 20px;
+    text-align: left;
+    font: normal normal normal 20px/24px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
 #blog{
     margin-top: 50px;
 }
@@ -77,7 +95,6 @@ background-color: $background;
 }
 
 #cta .container h2{
-    // margin-top: 50px;
     margin: 50 0 29 0;
     padding-top: 44px;
     display: flex;
@@ -91,11 +108,10 @@ background-color: $background;
 #cta .container .input-group{
     width: 420px;
     margin-top: 30px;
-
 }
 
 #cta .container .input-group .email-form{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 #cta .container .input-group .submit-button{

@@ -11976,29 +11976,44 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
+#navbar {
+  display: flex;
+  align-items: center;
+  background-color: #0E1B50;
   height: 125px;
 }
 
-#navbar {
-  background-color: #0E1B50;
-}
-
-#navbar > div > header > ul a {
-  color: white;
-}
-
-#navbar header .contact-btn {
+#navbar .contact-btn {
+  margin-left: 50px;
   padding: 5px 36px;
   background: #009AFB;
+}
+
+#navbar .navbar-toggler {
+  border-color: white;
+  background: white;
 }
 
 .dropdown-menu.menu.show {
   background-color: #0E1B50;
 }
 
+#navbar .dropdown-menu .dropdown-item {
+  background: #0E1B50;
+  color: white;
+}
+
 .dropdown-menu.menu.show li .dropdown-item {
   color: white;
+}
+
+#navbar .nav-link {
+  margin-left: 20px;
+  text-align: left;
+  font: normal normal normal 20px/24px Helvetica;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 
 #blog {
