@@ -12000,6 +12000,10 @@ header {
   color: white;
 }
 
+#blog {
+  margin-top: 50px;
+}
+
 #blog h2, #blog .h2 {
   text-align: left;
   font: normal normal normal 12px/20px Helvetica;
@@ -12032,4 +12036,33 @@ header {
 
 #blog .read-more a {
   text-decoration: none;
+}
+
+#blog .border {
+  border-right-width: 10px !important;
+  border-bottom-width: 10px !important;
+  border-left-width: 10px !important;
+  border-color: #009AFB !important;
+}
+
+#cta {
+  margin-top: 50px;
+  height: 270px;
+  background: #0E1B50;
+}
+
+#cta .container h2, #cta .container .h2 {
+  margin: 50 0 29 0;
+  padding-top: 44px;
+  display: flex;
+  justify-content: center;
+  font: normal normal bold 30px/37px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#cta .container .signup {
+  width: 270px;
+  height: 38px;
 }/*# sourceMappingURL=style.css.map */
