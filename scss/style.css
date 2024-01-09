@@ -11988,8 +11988,9 @@ header {
   color: white;
 }
 
-#navbar > div > header > ul > div > a {
-  padding: 12px 16px;
+#navbar header .contact-btn {
+  padding: 5px 36px;
+  background: #009AFB;
 }
 
 .dropdown-menu.menu.show {
@@ -12043,6 +12044,7 @@ header {
   border-bottom-width: 10px !important;
   border-left-width: 10px !important;
   border-color: #009AFB !important;
+  padding-bottom: 50px;
 }
 
 #cta {
@@ -12062,7 +12064,16 @@ header {
   opacity: 1;
 }
 
-#cta .container .signup {
-  width: 270px;
-  height: 38px;
+#cta .container .input-group {
+  width: 420px;
+  margin-top: 30px;
+}
+
+#cta .container .input-group .email-form {
+  margin-right: 20px;
+}
+
+#cta .container .input-group .submit-button {
+  padding: 5px 36px;
+  background: #009AFB;
 }/*# sourceMappingURL=style.css.map */
